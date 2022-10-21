@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,12 +13,12 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqe-QA-soo">
-                                <rect key="frame" x="69.666666666666686" y="398.66666666666669" width="251" height="47"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Iqe-QA-soo">
+                                <rect key="frame" x="57" y="437" width="316.33333333333331" height="58"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="53"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,8 +26,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
-                            <constraint firstItem="Iqe-QA-soo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zg9-dO-bub"/>
-                            <constraint firstItem="Iqe-QA-soo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nYe-i7-ez2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iqe-QA-soo" secondAttribute="trailing" constant="56.670000000000002" id="4mG-kC-6iW"/>
+                            <constraint firstItem="Iqe-QA-soo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="bmL-w1-qgU"/>
+                            <constraint firstItem="Iqe-QA-soo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bzi-sP-PcD"/>
                         </constraints>
                     </view>
                 </viewController>
