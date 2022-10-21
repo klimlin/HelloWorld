@@ -17,28 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQK-xw-Cnk">
-                                <rect key="frame" x="16" y="47" width="358" height="361.66666666666669"/>
+                                <rect key="frame" x="16" y="67" width="358" height="347"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-QR-XVz">
-                                <rect key="frame" x="16" y="448.66666666666674" width="358" height="361.33333333333326"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okv-FK-md5">
+                                <rect key="frame" x="16" y="443" width="358" height="347"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="X9e-QR-XVz" firstAttribute="width" secondItem="tQK-xw-Cnk" secondAttribute="width" id="06G-m9-Rxg"/>
-                            <constraint firstItem="X9e-QR-XVz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7dV-7R-cp1"/>
-                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AWv-uL-ZjW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tQK-xw-Cnk" secondAttribute="trailing" constant="16" id="Cb7-iq-PpG"/>
-                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NzD-dY-p1B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tQK-xw-Cnk" secondAttribute="trailing" constant="16" id="WwS-ZS-Wsd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X9e-QR-XVz" secondAttribute="trailing" constant="16" id="Xmc-Tk-zkP"/>
-                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Yo8-4w-Jvf"/>
-                            <constraint firstItem="X9e-QR-XVz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="a01-JQ-whz"/>
-                            <constraint firstItem="X9e-QR-XVz" firstAttribute="height" secondItem="tQK-xw-Cnk" secondAttribute="height" id="j8w-kT-PqD"/>
-                            <constraint firstItem="X9e-QR-XVz" firstAttribute="top" secondItem="tQK-xw-Cnk" secondAttribute="bottom" constant="40" id="oDd-SY-QjA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="okv-FK-md5" secondAttribute="trailing" constant="16" id="Avi-03-sWT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tQK-xw-Cnk" secondAttribute="trailing" constant="16" id="BYy-1k-Tql"/>
+                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="height" secondItem="okv-FK-md5" secondAttribute="height" id="Ept-Ec-D3J"/>
+                            <constraint firstItem="okv-FK-md5" firstAttribute="top" secondItem="tQK-xw-Cnk" secondAttribute="bottom" constant="29" id="Pmt-Ip-380"/>
+                            <constraint firstItem="okv-FK-md5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PoI-n8-p5u"/>
+                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Sgd-GJ-klA"/>
+                            <constraint firstItem="tQK-xw-Cnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XCa-kb-ape"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="okv-FK-md5" secondAttribute="bottom" constant="20" id="atI-qC-Mbj"/>
                         </constraints>
                     </view>
                 </viewController>
